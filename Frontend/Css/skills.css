@@ -1,0 +1,35 @@
+
+.skills-main {
+    align-content: space-around;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(78, 84, 81);
+    gap: 1rem;
+    width: 600px;
+    margin: 20px auto;
+    border-radius: 10px;
+    padding: 1rem; /* Added padding for better spacing */
+}
+.skill {
+   width: 500px;
+    display: flex;
+    align-items: center; /* Center items vertically */
+    gap: 1rem; /* Equal gaps between items */
+}
+.skill input{
+    height: 40px;
+
+}
+label {
+    flex: 1;/* Align text to the left */
+}
+input[type="range"] {
+    flex-grow: 1;
+    cursor: not-allowed; /* Indicate it's not editable */
+    opacity: 0.5; /* Slightly fade the range */
+}
+.percentage {
+    width: 20px; /* Adjusted width for consistent alignment */
+    text-align: right; /* Align percentage text */
+}
+
